@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectName.Domain\ProjectName.Domain.csproj" />
+    <ProjectReference Include="..\ProjectName.Integration\ProjectName.Integration.csproj" />
+    <ProjectReference Include="..\ProjectName.Utility\ProjectName.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
